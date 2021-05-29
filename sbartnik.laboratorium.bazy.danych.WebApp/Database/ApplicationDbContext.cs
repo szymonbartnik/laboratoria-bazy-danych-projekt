@@ -1,8 +1,7 @@
-using System;
 using Microsoft.EntityFrameworkCore;
 using sbartnik.laboratorium.bazy.danych.Database.Entities;
 
-namespace sbartnik.laboratorium.bazy.danych.Database
+namespace sbartnik.laboratorium.bazy.danych.WebApp.Database
 {
 	public class ApplicationDbContext : DbContext
 	{

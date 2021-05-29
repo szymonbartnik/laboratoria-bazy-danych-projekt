@@ -1,5 +1,3 @@
-using System;
-
 namespace sbartnik.laboratorium.bazy.danych.WebApp.Models
 {
 	public class ErrorViewModel

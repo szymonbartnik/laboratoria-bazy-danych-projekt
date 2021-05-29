@@ -3,8 +3,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using sbartnik.laboratorium.bazy.danych.Database;
 using sbartnik.laboratorium.bazy.danych.Database.Entities;
+using sbartnik.laboratorium.bazy.danych.WebApp.Database;
 
 namespace sbartnik.laboratorium.bazy.danych.WebApp.Controllers
 {

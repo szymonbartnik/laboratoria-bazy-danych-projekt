@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using sbartnik.laboratorium.bazy.danych.Database;
+using sbartnik.laboratorium.bazy.danych.WebApp.Database;
 
 namespace sbartnik.laboratorium.bazy.danych.Database.Migrations
 {
