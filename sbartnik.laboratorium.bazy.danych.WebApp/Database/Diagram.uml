@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>1dc5a082-e2e6-48e7-93b7-81df9f8ac333.SCHEMA:cars.dbo</OriginalElement>
+  <nodes>
+    <node x="-137.5" y="856.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.__EFMigrationsHistory</node>
+    <node x="620.75" y="248.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModels</node>
+    <node x="89.06818181818187" y="30.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Client</node>
+    <node x="1141.653409090909" y="182.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Colors</node>
+    <node x="251.125" y="819.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarOrder</node>
+    <node x="1047.903409090909" y="709.5">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModelColor</node>
+    <node x="940.903409090909" y="-7.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Brands</node>
+    <node x="126.0" y="531.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.ContactInformation</node>
+    <node x="620.75" y="864.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Cars</node>
+    <node x="-144.0" y="506.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Order</node>
+    <node x="367.9034090909091" y="595.5">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModelEngine</node>
+    <node x="279.875" y="270.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Engine</node>
+    <node x="584.0" y="-83.0">1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarSpecification</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Cars" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Brands" relationship="REFERENCES">
+      <point x="33.0" y="-93.5" />
+      <point x="785.75" y="467.0" />
+      <point x="1008.403409090909" y="467.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModelEngine" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModels" relationship="REFERENCES">
+      <point x="47.25" y="-38.0" />
+      <point x="509.6534090909091" y="477.0" />
+      <point x="731.25" y="477.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModelEngine" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Engine" relationship="REFERENCES">
+      <point x="-47.25" y="-38.0" />
+      <point x="415.1534090909091" y="467.0" />
+      <point x="359.875" y="467.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModels" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Brands" relationship="REFERENCES">
+      <point x="55.25" y="-82.5" />
+      <point x="786.5" y="234.0" />
+      <point x="1008.403409090909" y="234.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Cars" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModels" relationship="REFERENCES">
+      <point x="-33.0" y="-93.5" />
+      <point x="719.75" y="477.0" />
+      <point x="731.25" y="477.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarOrder" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Cars" relationship="REFERENCES">
+      <point x="42.25" y="-38.0" />
+      <point x="377.875" y="710.0" />
+      <point x="752.75" y="710.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Cars" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Engine" relationship="REFERENCES">
+      <point x="-99.0" y="-93.5" />
+      <point x="653.75" y="467.0" />
+      <point x="359.875" y="467.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModelColor" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModels" relationship="REFERENCES">
+      <point x="-47.250000000000114" y="-38.0" />
+      <point x="1095.153409090909" y="477.0" />
+      <point x="731.25" y="477.0" />
+      <point x="0.0" y="82.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarOrder" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Order" relationship="REFERENCES">
+      <point x="-42.25" y="-38.0" />
+      <point x="293.375" y="710.0" />
+      <point x="-50.0" y="710.0" />
+      <point x="0.0" y="60.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.ContactInformation" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Client" relationship="REFERENCES">
+      <point x="0.0" y="-60.5" />
+      <point x="208.5" y="477.0" />
+      <point x="176.06818181818187" y="477.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Order" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Client" relationship="REFERENCES">
+      <point x="0.0" y="-60.5" />
+      <point x="-50.0" y="477.0" />
+      <point x="176.06818181818187" y="477.0" />
+      <point x="0.0" y="93.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModels" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarSpecification" relationship="REFERENCES">
+      <point x="-55.25" y="-82.5" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Cars" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Colors" relationship="REFERENCES">
+      <point x="99.0" y="-93.5" />
+      <point x="851.75" y="467.0" />
+      <point x="1214.653409090909" y="467.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.CarModelColor" target="1dc5a082-e2e6-48e7-93b7-81df9f8ac333.TABLE:cars.dbo.Colors" relationship="REFERENCES">
+      <point x="47.249999999999886" y="-38.0" />
+      <point x="1189.653409090909" y="477.75" />
+      <point x="1214.653409090909" y="477.75" />
+      <point x="0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="564.5" y="466.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
